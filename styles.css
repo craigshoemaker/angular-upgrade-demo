@@ -39,4 +39,5 @@ nav {
 
 .separated li {
   border-right: solid 1px #eee;
+  text-transform: lowercase;
 }
