@@ -37,21 +37,18 @@ i {
   color: #c00;
 }
 
-nav::before {
-  content: "Angular Migration Demo: ";
-  margin-right: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #ccc;
-  font-size: 1.2em;
-}
-
 nav {
   padding: 12px;
   border-bottom:solid 1px #ccc;
 }
 
-.separated li {
+nav li a.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.separated li:not(:last-child) {
   border-right: solid 1px #eee;
   text-transform: lowercase;
 }
