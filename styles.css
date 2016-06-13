@@ -1,3 +1,7 @@
+i {
+  font-style: normal;
+}
+
 .inline {
     display: inline;
 }
@@ -16,7 +20,8 @@
 }
 
 .ng1 {
-  border-left: solid 10px #39f;    
+  border-left: solid 10px #39f;
+  padding-left: 4px;
 }
 
 .ng1-text {
@@ -24,7 +29,8 @@
 }
 
 .ng2 {
-  border-left: solid 10px #c00;    
+  border-left: solid 10px #c00;
+  padding-left: 4px;    
 }
 
 .ng2-text {
