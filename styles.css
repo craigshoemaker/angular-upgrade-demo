@@ -19,8 +19,16 @@
   border-left: solid 10px #39f;    
 }
 
+.ng1-text {
+  color: #39f;
+}
+
 .ng2 {
   border-left: solid 10px #c00;    
+}
+
+.ng2-text {
+  color: #c00;
 }
 
 nav::before {
@@ -40,4 +48,8 @@ nav {
 .separated li {
   border-right: solid 1px #eee;
   text-transform: lowercase;
+}
+
+.push-down-md {
+  margin-top: 25px;
 }
