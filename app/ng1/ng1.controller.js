@@ -8,13 +8,14 @@
         
                ['$scope', 'Ng1Service',
         function($scope,   ng1Service){
-            $scope.title = "ng1 controller";
+            var $ctrl = this;
+
+            $ctrl.title = "ng1 controller";
 
             ng1Service.getAll().then(function (data) {
-                $scope.data = data;    
+                $ctrl.data = data;
             }, function(error){
-                $scope.error = error;
+                $ctrl.error = error;
             });
         }]);
-    
-}(angular));
+}());
