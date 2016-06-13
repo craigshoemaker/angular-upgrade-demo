@@ -1,0 +1,42 @@
+.inline {
+    display: inline;
+}
+
+.group {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.group h2 {
+  margin-top:0;
+}
+
+.group p {
+  font-size: 1.3em;
+}
+
+.ng1 {
+  border-left: solid 10px #39f;    
+}
+
+.ng2 {
+  border-left: solid 10px #c00;    
+}
+
+nav::before {
+  content: "Angular Migration Demo: ";
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ccc;
+  font-size: 1.2em;
+}
+
+nav {
+  padding: 12px;
+  border-bottom:solid 1px #ccc;
+}
+
+.separated li {
+  border-right: solid 1px #eee;
+}

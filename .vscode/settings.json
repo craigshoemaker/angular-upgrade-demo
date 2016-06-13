@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "app/ng2/**/*.js": true,
+        "app/**/*.js.map": true,
+        "app/app.component.js": true,
+        "app/main.js": true
+    }
+}
