@@ -3,3 +3,4 @@ app/ng2/**/*.js
 app/**/*.js.map
 app/app.component.js
 app/main.js
+app/ng1-dist
