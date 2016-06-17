@@ -1,0 +1,1 @@
+angular.module('ng1ng2', ['ngRoute']);

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { IData } from './data.interface';
+import { IData } from '../data.interface';
 
 @Injectable()
 export class Ng2Service {
