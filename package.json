@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "typings-install": "npm run typings install dt~angular dt~angular-route dt~angular-resource -- --save --global"
+    "typings-install": "npm run typings install dt~jquery dt~angular dt~angular-route -- --save --global"
   },
   "license": "ISC",
   "dependencies": {
@@ -36,6 +36,6 @@
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
-    "typings": "^0.8.1"
+    "typings": "^1.3.0"
   }
 }
