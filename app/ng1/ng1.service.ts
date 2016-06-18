@@ -1,4 +1,4 @@
-angular.module('app').service('ng1Service', class N1Service {
+angular.module('app').service('ng1Service', class Ng1Service {
     $q: any;
 
     constructor($q) {
