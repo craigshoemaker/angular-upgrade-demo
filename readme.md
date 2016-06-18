@@ -1,4 +1,4 @@
-﻿# Introduction to Angular 2
+# Migrating Apps from Angular 1 to Angular 2
 
 This sample application demonstrates some of the basics of migrating from Angular 1 to Angular 2.
 
