@@ -1,5 +1,6 @@
 {
   "name": "angular-migration-demo",
+  "author": "Craig Shoemaker <craig@craigshoemaker.net> (http://craigshoemaker.net)",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
