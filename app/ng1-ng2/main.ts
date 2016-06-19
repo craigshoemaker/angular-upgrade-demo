@@ -9,5 +9,5 @@ upgradeAdapter.addProvider(Ng2Service);
 angular.module('ng1ng2')
        .factory('ng2Service', upgradeAdapter.downgradeNg2Provider(Ng2Service));
 
-upgradeAdapter.bootstrap(document.documentElement, ['ng1ng2', AppComponent]);
+upgradeAdapter.bootstrap(document.documentElement, ['ng1ng2']);
 bootstrap(AppComponent);
