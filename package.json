@@ -1,6 +1,7 @@
 {
-  "name": "angular-migration-demo",
+  "name": "angular-upgrade-demo",
   "author": "Craig Shoemaker <craig@craigshoemaker.net> (http://craigshoemaker.net)",
+  "description": "Upgrade/migrate Angular 1 apps to Angular 2",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
