@@ -13,7 +13,7 @@ import { NG1_COMPONENTS } from './ng1.components';
 export class Ng2Component implements OnInit {
     data: IData[] = [];
 
-    title: string = 'ng2 component in ts';
+    title: string = 'ng2 component';
     error: any;
     
     constructor(private _ng2Service: Ng2Service) { }
