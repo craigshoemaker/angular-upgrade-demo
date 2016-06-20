@@ -8,7 +8,7 @@ First, you want to make sure you have [Node.js](http://nodejs.org) so you can st
 
 Next, clone the repository:
 
-    git clone https://github.com/craigshoemaker/angular-migration-demo.git
+    git clone https://github.com/craigshoemaker/angular-upgrade-demo.git
 
 Then, install the dependencies:
 
