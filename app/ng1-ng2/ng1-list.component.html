@@ -4,3 +4,10 @@
         <ng1-item data="item"></ng1-item>
     </div>
 </div>
+
+<div class="ng1">
+    <h1 class="ng1-text">{{ $ctrl.title }}</h1>
+    <div ng-repeat="item in $ctrl.data">
+        <ng2-directive [data]="item"></ng2-directive>
+    </div>
+</div>

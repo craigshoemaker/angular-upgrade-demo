@@ -8,5 +8,5 @@ import { IData } from '../data.interface';
 })
 export class Ng2DirectiveComponent {
     @Input() data: IData;
-    
+    @Input() textClassName: string = 'ng2-text';
 }
