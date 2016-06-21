@@ -10,9 +10,9 @@ interface INg1Service {
 }
 
 @Component({
-    selector: 'ng2-list',
-    templateUrl: 'app/ng1-ng2/ng2-list.component.html',
-    directives: [ NG1_COMPONENTS.ng1Item, Ng2ItemComponent ]
+selector:           'ng2-list',
+    templateUrl:    'app/ng1-ng2/ng2-list.component.html',
+    directives:     [ NG1_COMPONENTS.ng1Item, Ng2ItemComponent ]
 })
 export class Ng2Component implements OnInit {
     ng1Data: IData[] = [];

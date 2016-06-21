@@ -5,9 +5,9 @@ import { Ng2ItemComponent } from './ng2-item.component';
 import { Ng2Service } from './ng2.service';
 
 @Component({
-    selector: 'ng2-list',
-    templateUrl: 'app/ng2/ng2-list.component.html',
-    directives: [Ng2ItemComponent]
+    selector:       'ng2-list',
+    templateUrl:    'app/ng2/ng2-list.component.html',
+    directives:     [Ng2ItemComponent]
 })
 export class Ng2ListComponent implements OnInit {
     data: IData[] = [];
