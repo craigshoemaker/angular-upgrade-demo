@@ -1,6 +1,5 @@
 angular.module('ng1ng2').component('ng1List', {
     templateUrl: 'app/ng1-ng2/ng1-list.component.html',
-    bindings: {},
     controller: class ng1ListController {
         title: string;
         data: any[];
@@ -14,8 +13,6 @@ angular.module('ng1ng2').component('ng1List', {
             ng2Service.getAll().then((data) => {
                 this.data = data;
             });
-
-            this.data = ng2Service.getAll();
         }
     }
 });

@@ -3,10 +3,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { IData } from '../data.interface';
 
 @Component({
-    selector: 'ng2-directive',
-    templateUrl: 'app/ng1-ng2/ng2-directive.component.html'
+    selector: 'ng2-item',
+    templateUrl: 'app/ng1-ng2/ng2-item.component.html'
 })
-export class Ng2DirectiveComponent {
+export class Ng2ItemComponent {
     @Input() data: IData;
     @Input() textClassName: string = 'ng2-text';
 }

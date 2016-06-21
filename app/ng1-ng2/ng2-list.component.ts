@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 
 import { IData } from '../data.interface';
-import { Ng2DirectiveComponent } from './ng2-directive.component';
+import { Ng2ItemComponent } from './ng2-item.component';
 import { Ng2Service } from './ng2.service';
 import { NG1_COMPONENTS } from './ng1.components';
 
@@ -10,9 +10,9 @@ interface INg1Service {
 }
 
 @Component({
-    selector: 'ng2-component',
-    templateUrl: 'app/ng1-ng2/ng2.component.html',
-    directives: [ NG1_COMPONENTS.ng1Item, Ng2DirectiveComponent ]
+    selector: 'ng2-list',
+    templateUrl: 'app/ng1-ng2/ng2-list.component.html',
+    directives: [ NG1_COMPONENTS.ng1Item, Ng2ItemComponent ]
 })
 export class Ng2Component implements OnInit {
     ng1Data: IData[] = [];
