@@ -12,5 +12,7 @@ angular.element(document).ready(() => {
     app.directive('ng2Item', <angular.IDirectiveFactory>upgradeAdapter.downgradeNg2Component(Ng2ItemComponent));
     app.directive('ng2App', <angular.IDirectiveFactory>upgradeAdapter.downgradeNg2Component(AppComponent));
 
-    upgradeAdapter.bootstrap(document.documentElement, ['ng1ng2']);
+    upgradeAdapter.bootstrap(document.documentElement, ['ng1ng2']).ready(() => {
+        console.log('Hybrid Angular application bootstrapped with Upgrade Adapter.');
+    });
 });
